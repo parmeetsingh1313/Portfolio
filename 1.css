@@ -1,0 +1,146 @@
+.about,.contact{
+    font-family: 'Poppins', sans-serif;
+}
+
+.about-content,.contact-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .title{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*  navigation   */
+ul{margin:0;
+padding:0;
+list-style:none;
+height:45px;
+line-height:36px;
+background-color: #000;
+font-family: Arial, Helvetica, sans-serif;
+font-size:15px;}
+li 
+{float :right;
+border-right:1px solid #156ee2;}
+
+a{display:block;
+    padding:0 45px;
+    color: aliceblue;
+    text-decoration: none;}
+
+a:hover{background-color: blue;}
+
+
+/* home styling    */
+/*    home    */
+
+.home{
+    display: flex;
+    background: url("images/0987.jpg") no-repeat center;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+}
+.home .max-width{
+  width: 100%;
+  display: flex;
+}
+.max-width{
+  margin-right: 0;
+}
+.text-1{
+    font-size: 27px;
+}
+.text-2{
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.text-3{
+    font-size: 40px;
+    margin: 5px 0;
+}
+
+
+
+/* about */
+
+
+section{
+    padding: 100px;
+
+}
+.about .title{
+    position: relative;
+    text-align: center;
+    font-size:40px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.about-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.left{
+    width: 45%;
+}
+ .left img {
+   height: 400px;
+   width: 400px; 
+   object-fit:cover;
+}
+.right{
+    width: 55%;
+}
+.text{
+font-size: 30px;
+font-weight: 600;
+margin-bottom: 10px;
+}
+
+
+
+/*   MEASSAGE BOX   */
+table{
+    border-collapse:collapse;
+    width:100%;
+    height:50%;
+    color:white;
+    font-family:monospace;
+    font-size:18px;
+    text-align:left;
+
+}
+td{
+    background-color:rgba(0, 17, 255, 0.959);
+    color:white;
+}
+
+/*   Admin Servise Page   */
+.greenbtn{
+    background-color:black;
+    color : white;
+    width: 100%;
+    height:50px;
+    margin-top:20px;
+    
+} 
